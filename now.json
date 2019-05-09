@@ -1,0 +1,6 @@
+{
+  "builds": [{"src": "build/*", "use": "@now/static"}],
+  "name": "reiwa",
+  "routes": [{ "src": "/(.*)", "dest": "build/$1" }],
+  "version": 2
+}
